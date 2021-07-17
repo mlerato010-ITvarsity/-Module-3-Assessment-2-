@@ -1,0 +1,224 @@
+html{
+height: 100%;}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 0;
+    margin: 0;
+
+    height: 100%;
+}
+
+.body-home{
+    background-image: url('images/meat.jfif');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:30px 0px 0px 30px;
+}
+
+.body-meals{
+    background-image: url('images/meat.jfif');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*======================== HEADER =====================*/
+#home-logo-img{
+    width: 120px;
+    display: block;
+    margin: auto;
+    padding: 35px 0px 0px 15px;
+}
+.header i {
+    float: left;
+    padding: 15px 0px 0px 15px;
+    color: peru;
+}
+.header{
+    background-color: brown;
+    padding-top: -5px;
+
+    width: 100%;
+    height: 70px;
+    top: 0;
+
+    position: fixed;
+    
+    text-align: center;
+}
+h1{
+    color:white;
+    text-decoration: none;   
+    font-family: 'Times New Roman', Times, serif,italic; 
+}
+
+/*====== HOME PAGE MENU ======*/
+
+.body-recipe{
+    background-image:url('images/burger.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-size:cover ; 
+
+ }
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color:bisque;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid peru;
+    
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    
+    width:70%
+}
+/*============== MEALS PAGE===============*/
+
+#meals{
+    padding-top: 80px;
+}
+
+/*====== MEALS PAGE MENU ======*/
+.meals-list a{
+    text-decoration: none;
+}
+
+.meals-list-item{
+    border: 5px solid plum;
+    margin: 10px;
+}
+
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color:coral;
+    padding-left:10px;
+}
+
+.meals-list-item i{
+    float: right;
+    color: peru;
+    padding-right: 10px;
+}
+
+
+.meals-list-item p{
+    font-size: 18px;
+    color:white;
+    margin-top:-7px ;
+    padding-left: 10px;
+}
+
+/*=============== Recipe =============*/
+
+.recipe-details img{
+    width: 100%;
+}
+.recipe-details h1{
+    font-size: 20px;
+    text-align: center;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+
+.recipe-details h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 13px;
+}
+
+.recipe-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.recipe-details-info p{
+    font-size: 15px;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.recipe-details-ingredients label{
+    line-height: 25px;
+    margin-left: 10px;
+}
+/*============================= PLACE ORDER BUTTON =======================*/
+
+.textarea {
+    width: 100%;
+    border: 5px solid #1A1A1A;
+}
+.button{
+    display: block;
+    width: 20%;
+    background-color:peru;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    margin-left: 40%;
+    padding:10px;    
+}
+/*======================= RESPONSIVE LAYOUT =================*/
+
+@media only screen and (min-width: 600px) {
+    #meals {
+        width: 80%;
+        margin: auto;
+    }
+    #recipe {
+        width: 80%;
+        margin: auto;
+    }
+}
+@media only screen and (min-with: 1000px) {
+      #meals {
+        width: 60%;
+        margin: auto;
+    }
+      #recipe {
+        width: 60%;
+        margin: auto;
+    }
+}
+@media only screen and (min-with: 1500px) {
+      #meals {
+        width: 40%;
+        margin: auto;
+    }
+      #recipe {
+        width: 40%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 720px) {
+    .body-home {
+        background-image: url('images/barbarque\ ribs.jpg');
+    }
+    .body-meals {
+        background-image: url('images/apple2.jfif');
+    }
+}
+
+
+
+
+
+
+
